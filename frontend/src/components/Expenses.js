@@ -13,8 +13,8 @@ function Expenses({ user, groups }) {
   const [selectedGroup, setSelectedGroup]   = useState('');
   const [description, setDescription]       = useState('');
   const [amount, setAmount]                 = useState('');
-  const [paidBy, setPaidBy]                 = useState('');       // ← NEW
-  const [groupMembers, setGroupMembers]     = useState([]);       // ← NEW
+  const [paidBy, setPaidBy]                 = useState('');  
+  const [groupMembers, setGroupMembers]     = useState([]);  
 
   // Filter tab state — '' means ALL
   const [filterGroup, setFilterGroup] = useState('');
